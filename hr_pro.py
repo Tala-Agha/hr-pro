@@ -8,7 +8,7 @@ class Employee:
        self.salary = salary
        self.employment_year = employment_year
    def get_working_years(self):
-       return current_year - self.employment_year
+       return 2020 - self.employment_year
 
 
 manager_list = []
